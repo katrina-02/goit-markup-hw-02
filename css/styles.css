@@ -32,6 +32,9 @@ a {
     font-weight: 500;
     font-size: 16px;
 }
+.navigation-link {
+    color: #2e2f42;
+}
 .navigation .navigation-link:hover,
 .navigation .navigation-link:focus,
 .navigation .navigation-link:active {
@@ -42,9 +45,11 @@ a {
     font-style: normal;
 }
 .contacts {
-    color: #434455;
     font-weight: 400;
     font-size: 16px;
+}
+.contacts .link {
+    color: #434455;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -101,6 +106,7 @@ a {
     line-height: 111%;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 .member-list {
     background-color: #FFFFFF;
@@ -113,6 +119,7 @@ a {
     line-height: 111%;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 
